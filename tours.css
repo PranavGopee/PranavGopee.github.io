@@ -139,6 +139,10 @@ padding-right:1em;
 .card-body p, .price{
     font-size: 1.25vw;
 }
+.card .card-body img{
+    width: 600px;
+    height: 300px;
+}
 
 @media (max-width:786px){
 .btn{
