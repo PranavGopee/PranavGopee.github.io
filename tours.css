@@ -1,0 +1,167 @@
+body{
+    font-family: 'Amatic SC', cursive;
+    text-align: center
+}
+#bluetop{
+    width:100%;
+    height: 80px;
+    background-color: #3298D4;  
+}
+.navbar{
+    height: 5rem;
+}
+#customnav.navbar.scrolled {
+    background:orange;
+    transition: background 1s;
+}
+    .navbar-brand .header-logo{
+        width: 5rem;
+        margin-top: 10px;
+       
+    }
+    .navbar-brand{
+        width:20%;
+        justify-content: center;
+    }
+
+    .navbar-nav li{
+        font-family: 'Cabin', sans-serif;;
+        text-transform:uppercase;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 1em;
+        padding-right:1em;        
+    }
+    .navbar-nav li:hover{
+     background: orange;
+    }
+#main1 img{
+    width: 100%;
+    padding: 0;
+
+} 
+#main1 h1{
+   position: absolute;
+    top: 40vw;
+    left:35%;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 7vw;
+    text-align:center;
+    color: white;
+    text-shadow: .5vw .5vw rgba(61, 61, 61, 0.6);   
+}
+#main1{
+    position:relative;
+    top: -20vw;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.jumbotron{
+    margin-top: -20vw;
+    text-align: center;
+}
+.row{
+    margin: 0;
+}
+.footer-row{
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+}
+#footertours{
+    font-family:'Cabin', sans-serif;
+   color: white;
+   font-size: 0.75rem;
+  
+}
+
+.jumbotron h1,{
+font-size: 5vw;
+font-weight: 700;
+}
+.jumbotron .lead, p{
+font-size: 2vw;
+}
+mark{
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+}
+#orange{
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    padding-left:5em;
+    padding-right:5em;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+#orange h2{
+   font-size: 8vw;
+   font-weight: 700;
+}
+#orange p{
+   font-size: 2vw;
+   font-weight: 700;
+}
+#orange .fas{
+    transform: scale(5);
+    color: rgb(255, 132, 0);
+    margin:2em;
+}
+ul, #cardtitle{
+    text-align: start;
+    font-size: 2vw;
+}
+
+.card{
+    height: 100%;   
+}
+
+#band{
+    width:100%;
+    height:1em;
+    background-color: orange;
+}
+.blue{
+    background-color:orange;
+    font-size: 5vw;
+    padding-bottom: .5em;
+padding-top: .5em;
+padding-left:1em;
+padding-right:1em; 
+}
+
+.card-body p, .price{
+    font-size: 1.25vw;
+}
+
+@media (max-width:786px){
+.btn{
+    font-size: 1rem;
+    padding: .5em;
+}
+.jumbotron h1{
+    font-size:2em;
+}
+.jumbotron .lead, p{
+    font-size:1em;
+}
+
+#orange h2, .price{
+font-size: 2em ;
+}
+
+#orange p{
+font-size: 1em ;
+}
+}
+@media (max-width:1200px){
+.navbar-nav li{
+    background-color:#3298D4;
+}
+}
