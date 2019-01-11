@@ -240,17 +240,8 @@ color: orange;
     padding-top: 0%;
     padding:0;
     margin-bottom: 0%;
-    background: orange;
+	background: orange;
 }
-#videobox #featured{
-   display: flex;
-   align-content: center;
-   justify-content: center;
-    padding-left: 0%;
-   padding-bottom: 0%;
-   padding-top: 10em;
-   width:100vw;
-    }
     #headinfo{
         line-height: 0;
         padding: 1px;
@@ -284,6 +275,7 @@ video {
     height: 80px;
     background-color: #3298D4;
 }
+
 @media (max-width:786px) {
 
 #contacttext{

@@ -148,7 +148,7 @@ padding-right:1em;
 .jumbotron h1{
     font-size:2em;
 }
-.jumbotron .lead, p{
+.jumbotron .lead, p,.card-body p{
     font-size:1em;
 }
 
